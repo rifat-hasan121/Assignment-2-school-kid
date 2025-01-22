@@ -410,6 +410,9 @@ footer{
   font-weight: bold;
   margin-bottom: 30px;
 }
+.hide{
+  display: none;
+}
 /* for mobile device */
 @media screen and (max-width: 576px) {
   .brand-name,
@@ -436,6 +439,7 @@ footer{
   .banner-text {
     padding: 0px 20px;
   }
+
 
   .banner-img {
     width: 400px;
@@ -492,6 +496,7 @@ footer{
   }
   .story-cards{
     width: 170px;
+    overflow-x: hidden;
   }
   .button-story{
     padding: 0px;
